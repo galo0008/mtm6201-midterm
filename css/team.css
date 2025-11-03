@@ -1,0 +1,141 @@
+ /* TEAM PAGE CSS */
+
+/* Top banner and header */
+.top-banner {
+  background-color: #1c3b35;
+  color: #d4f59b;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.95rem;
+}
+
+header {
+  background-color: #0e201b;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #c8f77c;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #c8f77c;
+}
+
+/* TEAM SECTION */
+.features {
+  text-align: center;
+  padding: 60px 8%;
+  background-color: #e9efd9;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #1d3e35;
+  margin-bottom: 10px;
+}
+
+.features-sub {
+  color: #384133;
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: #f6fbe9;
+  border: 1px solid #d7e8c3;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  color: #1c3b35;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #444;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0e201b;
+  color: #ffffff;
+  padding: 40px 8% 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c8f77c;
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #c8f77c;
+}
+
+.copyright {
+  color: #a6a6a6;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
