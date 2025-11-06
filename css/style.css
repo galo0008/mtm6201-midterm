@@ -375,24 +375,23 @@ header[role="banner"] {
   border: 0.3px solid #b3c89c;
 
 }
+ 
 
-.blog-card img:first-child {
+.blog-card img {
   width: 100%;
-  border-radius: 10px 10px 0 0;
-  /* round top corners */
+ 
   margin-bottom: 10px;
+  margin-top: 5px;
   object-fit: cover;
 }
 
 .author-left {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  display:flex; align-items:center; gap:10px; margin-top:auto;
 }
 
 .author-left img {
-  width: 32px;
-  height: 32px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -417,7 +416,7 @@ header[role="banner"] {
   }
 }
 
-/* author photos wont be small i gave up */
+
 
 .testimonials {
   text-align: center;
